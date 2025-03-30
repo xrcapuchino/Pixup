@@ -4,6 +4,7 @@ import org.Vazquez.Rojas.Diego.Alejandro.pixup.util.ReadUtil;
 import org.Vazquez.Rojas.Diego.Alejandro.pixup.vista.Consola;
 import org.Vazquez.Rojas.Diego.Alejandro.pixup.vista.Ejecutable;
 import org.Vazquez.Rojas.Diego.Alejandro.pixup.vista.Menu;
+import org.Vazquez.Rojas.Diego.Alejandro.pixup.vista.Ventana;
 
 public class Principal {
     public static void main (String a[]) {
@@ -15,16 +16,19 @@ public class Principal {
             ejecutable = null;
             Menu.principal();
             opcion = ReadUtil.getInstance().leerInt();
-            switch (opcion){
+            switch (opcion) {
                 case 1:
                     ejecutable = Consola.getInstance();
                     break;
                 case 2:
+                    ejecutable = Ventana.getInstance();
                     break;
-
+                case 3:
+                    return;
             }
-
+            if (ejecutable != null){
+                ejecutable.run();
+            }
         }
-
     }
 }
