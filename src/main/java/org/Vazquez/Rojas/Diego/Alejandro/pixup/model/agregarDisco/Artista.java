@@ -1,13 +1,14 @@
-package org.Vazquez.Rojas.Diego.Alejandro.pixup.model;
+package org.Vazquez.Rojas.Diego.Alejandro.pixup.model.agregarDisco;
 
-public class Estado {
+public class Artista {
+
     private Integer Id;
     private String nombre;
 
-    public Estado() {
+    public Artista() {
     }
 
-    public Estado(Integer id, String nombre) {
+    public Artista(Integer id, String nombre) {
         Id = id;
         this.nombre = nombre;
     }
@@ -27,6 +28,4 @@ public class Estado {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
-
 }

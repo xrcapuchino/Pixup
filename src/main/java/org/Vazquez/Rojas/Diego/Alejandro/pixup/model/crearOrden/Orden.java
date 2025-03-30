@@ -1,4 +1,6 @@
-package org.Vazquez.Rojas.Diego.Alejandro.pixup.model;
+package org.Vazquez.Rojas.Diego.Alejandro.pixup.model.crearOrden;
+
+import org.Vazquez.Rojas.Diego.Alejandro.pixup.model.registrarUsuario.Usuario;
 
 import java.sql.Timestamp;
 

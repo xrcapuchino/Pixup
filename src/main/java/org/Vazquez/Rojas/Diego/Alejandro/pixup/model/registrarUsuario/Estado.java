@@ -1,14 +1,13 @@
-package org.Vazquez.Rojas.Diego.Alejandro.pixup.model;
+package org.Vazquez.Rojas.Diego.Alejandro.pixup.model.registrarUsuario;
 
-public class Artista {
-
+public class Estado {
     private Integer Id;
     private String nombre;
 
-    public Artista() {
+    public Estado() {
     }
 
-    public Artista(Integer id, String nombre) {
+    public Estado(Integer id, String nombre) {
         Id = id;
         this.nombre = nombre;
     }
@@ -28,4 +27,6 @@ public class Artista {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+
 }

@@ -1,4 +1,6 @@
-package org.Vazquez.Rojas.Diego.Alejandro.pixup.model;
+package org.Vazquez.Rojas.Diego.Alejandro.pixup.model.crearOrden;
+
+import org.Vazquez.Rojas.Diego.Alejandro.pixup.model.agregarDisco.Disco;
 
 public class Detalle_orden {
     private Integer cantidad;

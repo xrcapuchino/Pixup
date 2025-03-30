@@ -1,4 +1,4 @@
-package org.Vazquez.Rojas.Diego.Alejandro.pixup.model;
+package org.Vazquez.Rojas.Diego.Alejandro.pixup.model.registrarUsuario;
 
 public class Tipo_notificacion {
     private Integer Id;

@@ -1,13 +1,13 @@
-package org.Vazquez.Rojas.Diego.Alejandro.pixup.model;
+package org.Vazquez.Rojas.Diego.Alejandro.pixup.model.agregarDisco;
 
-public class Tipo_domicilio {
+public class Genero_musical {
     private Integer Id;
     private String descripcion;
 
-    public Tipo_domicilio() {
+    public Genero_musical() {
     }
 
-    public Tipo_domicilio(Integer id, String descripcion) {
+    public Genero_musical(Integer id, String descripcion) {
         Id = id;
         this.descripcion = descripcion;
     }
